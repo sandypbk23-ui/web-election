@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "totalSeats": 275,
+    "countedSeats": 150,
+    "updatedAt": "2026-03-06T04:50:00.144Z"
+  },
+  "partyResults": [
+    {
+      "party": "Nepali Congress",
+      "seats": 50,
+      "color": "#1E40AF",
+      "votes": "1.2M"
+    },
+    {
+      "party": "CPN-UML",
+      "seats": 45,
+      "color": "#DC2626",
+      "votes": "1.1M"
+    },
+    {
+      "party": "CPN-Maoist",
+      "seats": 25,
+      "color": "#991B1B",
+      "votes": "0.6M"
+    },
+    {
+      "party": "RSP",
+      "seats": 15,
+      "color": "#0EA5E9",
+      "votes": "0.4M"
+    },
+    {
+      "party": "RPP",
+      "seats": 10,
+      "color": "#F59E0B",
+      "votes": "0.3M"
+    },
+    {
+      "party": "Others",
+      "seats": 5,
+      "color": "#64748B",
+      "votes": "0.2M"
+    }
+  ],
+  "breakingNews": [
+    {
+      "title": "Counting continues in Kathmandu-4",
+      "source": "Kantipur",
+      "time": "5m ago"
+    },
+    {
+      "title": "Final results announced for Lalitpur-3",
+      "source": "Hamro Patro",
+      "time": "15m ago"
+    },
+    {
+      "title": "Leading candidates update in Kaski-2",
+      "source": "Ratopati",
+      "time": "20m ago"
+    }
+  ]
+}
