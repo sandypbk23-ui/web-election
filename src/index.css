@@ -1,6 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-election-red: #DC2626;
+  --color-election-blue: #1E40AF;
+  --color-election-white: #FFFFFF;
+  --color-election-dark: #0F172A;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 
 :root {
   --election-red: #DC2626;
