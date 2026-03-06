@@ -16,6 +16,15 @@ export const useElectionData = () => {
       // Fallback for demo purposes if backend isn't running
       setData({
         summary: { totalSeats: 275, countedSeats: 150, updatedAt: new Date().toISOString() },
+        provinceResults: [
+          { id: '1', name: 'Koshi', winner: 'Nepali Congress', seats: 14, color: '#1E40AF' },
+          { id: '2', name: 'Madhesh', winner: 'CPN-UML', seats: 12, color: '#DC2626' },
+          { id: '3', name: 'Bagmati', winner: 'Nepali Congress', seats: 18, color: '#1E40AF' },
+          { id: '4', name: 'Gandaki', winner: 'CPN-UML', seats: 9, color: '#DC2626' },
+          { id: '5', name: 'Lumbini', winner: 'CPN-Maoist', seats: 11, color: '#991B1B' },
+          { id: '6', name: 'Karnali', winner: 'CPN-Maoist', seats: 6, color: '#991B1B' },
+          { id: '7', name: 'Sudurpashchim', winner: 'Nepali Congress', seats: 8, color: '#1E40AF' }
+        ],
         partyResults: [
           { party: 'NC', seats: 50, color: '#1E40AF', votes: '1.2M' },
           { party: 'UML', seats: 45, color: '#DC2626', votes: '1.1M' },
